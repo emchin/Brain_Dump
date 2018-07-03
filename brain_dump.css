@@ -1,0 +1,64 @@
+table {
+  width:100%;
+}
+
+strong {
+  color: #CF2027;
+}
+
+.category {
+  color: #CF2027;
+  font-size:200%;
+}
+
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  background-color: white;
+}
+
+#item, #result {
+  height: 500% !important;
+  width: 100% !important;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 100%;
+}
+
+.buttons, #dropdown {
+  display:block;
+  background-color: #E7C9B0;
+  font-size: 150%;
+  height: 250%;
+  width: 10%;
+  padding-top: 20px 0;
+  text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F7ADC4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #F7ADC4;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #F7ADC4;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #F7ADC4;}
+
+#result {
+  font-size: 125%;
+  font-family: 'PT Sans Narrow', sans-serif;
+}

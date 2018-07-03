@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href = "brain_dump.css" rel = "stylesheet" media="screen">
+  <link href = "brain_logo.jpg" rel="icon" type="image/gif">
+  <title>Life</title>
+</head>
+
+<body>
+  <center>
+    <img height=30% width=30% alt="strong brain cartoon" src="brain_image.jpg">
+    <h1>Welcome to your <strong>Life</strong> page!</h1>
+    <p>Here are all the ideas you stored under Life.</h1>
+
+    <p id="result"></p>
+
+    <script>
+    var output = localStorage.getItem('life');
+    document.getElementById("result").innerHTML = output;
+    </script>
+
+  </center>
+
+</body>
+</html>
